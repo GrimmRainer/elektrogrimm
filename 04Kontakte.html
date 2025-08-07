@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontakt – Elektro Grimm</title>
+  <style>
+    body {
+      background-color: orange;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      color: orange;
+    }
+    nav {
+      background-color: #444;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: orange;
+    }
+    section {
+      padding: 40px;
+    }
+    form {
+      background-color: #ffb347;
+      padding: 30px;
+      border-radius: 12px;
+      color: #222;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: none;
+      border-radius: 6px;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #222;
+    }
+    footer {
+      background-color: #333;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Kontaktieren Sie uns</h1>
+  </header>
+
+  <nav>
+    <a href="01erste-seite.html">Start</a>
+    <a href="02Leistungen.html">Leistungen</a>
+    <a href="03Projekte.html">Projekte</a>
+    <a href="04Kontakte.html">Kontakt</a>
+	<p>📧 Schreiben Sie uns direkt: <a href="elektrogrimm@gmx.de">elektrogrimm@gmx.de</a></p>
+
+  </nav>
+
+  <section>
+    <form action="mailto:info@elektrogrimm.de" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">E-Mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="nachricht">Nachricht:</label>
+      <textarea id="nachricht" name="nachricht" rows="6" required></textarea>
+
+      <button type="submit">Absenden</button>
+    </form>
+  </section>
+
+ <<footer>
+  <p>© 2025 Elektro Grimm – Alle Rechte vorbehalten</p>
+
+  <div style="margin-top: 15px; font-size: 1.1em;">
+    <p>
+      📞 <strong>Telefon:</strong> <a href="tel:095455080017" style="color: #ccc; text-decoration: none;">09545 5080017</a><br>
+      📱 <strong>Mobil:</strong> <a href="tel:01776492091" style="color: #ccc; text-decoration: none;">0177 6492091</a>
+    </p>
+
+    <p>
+      🕒 <strong>Öffnungszeiten:</strong><br>
+      Montag – Freitag: 08:00 – 13:00 Uhr<br>
+      Samstag: nach Vereinbarung
+    </p>
+
+    <p>
+      📍 <strong>Standort:</strong><br>
+      Schafgasse 2b 96155 Buttenheim - Gunzendorf
+    </p>
+  </div>
+  
+  <section style="text-align: center; padding: 40px;">
+  <h2>📍 Unser Standort</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2574.827848107754!2d11.077089377039277!3d49.8081040714767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a1f5306ce182a5%3A0x33cd7159b8942632!2sSchafgasse%202B%2C%2096155%20Buttenheim!5e0!3m2!1sde!2sde!4v1754540943819!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+</footer>
+
+
+
+</body>
+</html>
+
