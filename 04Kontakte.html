@@ -126,25 +126,23 @@
 
   </nav>
 
-  <section id="kontakt">
-  <h2>📧 Schreiben Sie uns direkt</h2>
-  <p>
-    <a href="mailto:elektrogrimm@gmx.de">elektrogrimm@gmx.de</a>
-  </p>
+  <section>
+    <form action="https://formspree.io/f/mldlanpg" method="POST">
+  <input type="hidden" name="_redirect" value="https://grimmrainer.github.io/elektrogrimm/danke.html">
 
-  <form action="mailto:elektrogrimm@gmx.de" method="post" enctype="text/plain">
-    <label for="name">Name:</label><br>
-    <input type="text" id="name" name="name"><br><br>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
 
-    <label for="email">E-Mail:</label><br>
-    <input type="email" id="email" name="email"><br><br>
+  <label for="email">E-Mail:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
 
-    <label for="nachricht">Nachricht:</label><br>
-    <textarea id="nachricht" name="nachricht" rows="5" cols="40"></textarea><br><br>
+  <label for="message">Nachricht:</label><br>
+  <textarea id="message" name="message" rows="6" required></textarea><br><br>
 
-    <input type="submit" value="Absenden">
-  </form>
-</section>
+  <button type="submit">Absenden</button>
+</form>
+
+  </section>
 
 
  <<footer>
@@ -179,6 +177,7 @@
 
 </body>
 </html>
+
 
 
 
